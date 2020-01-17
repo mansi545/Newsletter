@@ -35,7 +35,7 @@ app.post("/", function(req, res) {
     url: "https://us4.api.mailchimp.com/3.0/lists/9743105e38",
     method: "POST",
     headers: {
-      "Authorization": "mansi 917bcf6689c6d2263130e756508e9c58-us4"
+     
       },
      body: jsonData
   };
@@ -61,5 +61,3 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("server is running on port 3000");
 });
-// 917bcf6689c6d2263130e756508e9c58-us4 API KEY
-// 9743105e38 unique id
